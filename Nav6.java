@@ -10,7 +10,7 @@
 
 import java.util.Arrays;
 
-import com.team1241.frc2015.utilities.IMUProtocol;
+import com.team1241.frc2016.utilities.IMUProtocol;
 
 import edu.wpi.first.wpilibj.PIDSource;
 import edu.wpi.first.wpilibj.SensorBase;
