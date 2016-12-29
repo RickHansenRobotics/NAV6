@@ -1,3 +1,4 @@
+
 /*----------------------------------------------------------------------------*/
 /* Copyright (c) Kauai Labs 2013. All Rights Reserved.                        */
 /*                                                                            */
@@ -10,9 +11,10 @@
 
 import java.util.Arrays;
 
-import com.team1241.frc2016.utilities.IMUProtocol;
+import com.team1241.frc2017.utilities.IMUProtocol;
 
 import edu.wpi.first.wpilibj.PIDSource;
+import edu.wpi.first.wpilibj.PIDSourceType;
 import edu.wpi.first.wpilibj.SensorBase;
 import edu.wpi.first.wpilibj.SerialPort;
 import edu.wpi.first.wpilibj.Timer;
@@ -445,4 +447,16 @@ public class Nav6 extends SensorBase implements PIDSource, LiveWindowSendable, R
             }
         }
     }
+
+	@Override
+	public void setPIDSourceType(PIDSourceType pidSource) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public PIDSourceType getPIDSourceType() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }
